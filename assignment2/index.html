@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pakistani Restaurant Menu</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #006400;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin: 0;
+            padding: 10px 0;
+            color: #ffffff;
+        }
+
+        h2 {
+            font-size: 28px;
+            margin: 0;
+            padding: 20px 0;
+            color: #006400;
+            text-align: center;
+        }
+
+        .menu {
+            display: flex;
+            justify-content: center;
+            margin-top: 40px;
+        }
+
+        ol {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        li {
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        button {
+            border: none;
+            padding: 12px 24px;
+            border-radius: 10px;
+            background-color: #006400;
+            color: #ffffff;
+            font-size: 18px;
+            text-decoration: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button a {
+            text-decoration: none;
+            color: #ffffff;
+            display: block;
+            padding: 10px;
+        }
+
+        button:hover {
+            background-color: #004d00;
+        }
+
+        /* Responsive styling */
+        @media only screen and (max-width: 600px) {
+            body {
+                margin-top: 10vw;
+            }
+
+            h1 {
+                font-size: 30px;
+            }
+
+            h2 {
+                font-size: 24px;
+            }
+
+            div.menu {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            li {
+                margin-bottom: 20px;
+            }
+
+            button {
+                padding: 10px 20px;
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to Our Pakistani Restaurant</h1>
+    </header>
+
+    <main>
+        <h2>Menu</h2>
+
+        <div class="menu">
+            <ol>
+                <li>
+                    <button>
+                        <a href="pakistani_delights.html">Pakistani Delights</a>
+                    </button>
+                </li>
+                <li>
+                    <button>
+                        <a href="flavors_of_pakistan.html">Flavors of Pakistan</a>
+                    </button>
+                </li>
+                <li>
+                    <button>
+                        <a href="sweet_dishes.html">Sweet Dishes</a>
+                    </button>
+                </li>
+            </ol>
+        </div>
+    </main>
+</body>
+
+</html>
