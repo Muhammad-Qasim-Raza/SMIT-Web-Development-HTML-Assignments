@@ -1,1 +1,1 @@
-# SMIT-Web-Development-HTML-Assignments
+# SMIT-Web-Development-HTML-CSS-Assignments
